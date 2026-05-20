@@ -1,5 +1,3 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
-
 # Active Directory Home Lab
 
 **Project Link:** [View Project](https://learn.nextwork.org/projects/578859a7-a837-4caf-bb1f-5d5f9a154d0f)
