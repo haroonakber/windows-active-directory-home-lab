@@ -1,0 +1,28 @@
+List all user accounts in domain:
+Get-ADUser -Filter *
+
+List all Organizational Units:
+Get-ADOrganizationalUnit -Filter *
+
+Creating a new user called Jane Smith in the IT OU:
+New-ADUser `
+    -Name "Jane Smith" `
+    -GivenName "Jane" `
+    -Surname "Smith" `
+    -SamAccountName "jsmith" `
+    -UserPrincipalName "jsmith@yourlab.local" `
+    -Path "OU=IT,DC=yourlab,DC=local" `
+    -AccountPassword (ConvertTo-SecureString "P@ssw0rd123" -AsPlainText -Force) `
+    -Enabled $true
+
+Verifying the user was created by running:
+Get-ADUser -Identity jsmith
+
+Creating a folder to store scripts:
+mkdir C:\Scripts
+
+Opening a new file in Notepad for the user list by running:
+notepad C:\Scripts\Users.csv
+
+creating the PowerShell script file:
+notepad C:\Scripts\Create-Users.ps1
