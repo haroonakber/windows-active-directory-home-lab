@@ -79,10 +79,10 @@ The key tools I used include Oracle VirtualBox, Windows Server 2022, Server Mana
 
 This project took me approximately 3 hours to complete. The most challenging part was writing the automation script 
 
-### Next steps and goals
+### Outcome
 
-I did this project today to learn how to build an Active Directory environment from scratch, including creating a domain controller, organizing users into departments, and automating account management with PowerShell.
+Successfully built a Windows Active Directory environment from scratch, including creating a domain controller, organizing users into departments, and automating account management with PowerShell.
 
 ---
 
-*Built with [NextWork](https://learn.nextwork.org) - [View this project](https://learn.nextwork.org/projects/578859a7-a837-4caf-bb1f-5d5f9a154d0f)*
+*[View this project](https://learn.nextwork.org/projects/578859a7-a837-4caf-bb1f-5d5f9a154d0f)*
