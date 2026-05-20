@@ -69,10 +69,6 @@ In this step, I'm using PowerShell to query existing users and OUs and create a 
 
 Using a script lets me create new users in bulk and in an automated way compared to the GUI which requires one by one entry
 
-## Joining a Client to the Domain and Enforcing Group Policy
-
-### Verifying GPO application on CLIENT01
-
 ## Reflections and Key Takeaways
 
 ### Tools and concepts learned
